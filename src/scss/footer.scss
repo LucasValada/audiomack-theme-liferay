@@ -1,0 +1,105 @@
+:root {
+    --Yellow: rgb(255, 201, 60);
+}
+footer {
+    background: black;
+}
+
+.nossa-history h4{
+    color: var(--Yellow);
+}
+.nossa-history p{
+    color: white;
+}
+.contato h4{
+    color: var(--Yellow);
+}
+.contato .info-contatos {
+    color: white !important;
+}
+.contatosocial h4{
+    color: var(--Yellow);
+}
+.contatosocial p{
+    color: white;
+}
+.contatosocial .social-media .icon-facebook{
+    width: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+footer .bottom-line {
+    /* color: var(--Yellow); */
+    border-bottom: 1.5px solid var(--Yellow);
+    width: 60px;
+    /* text-align: left; */
+    display: inline-block; }
+
+.nossa-history:first-child {
+    width: 400px;
+    
+}
+.contact-list li:before {
+    content: "- ";
+}
+.social-media-icon {
+    display: flex;
+    border: solid 2px var(--Yellow);
+    padding: 12px 16px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.social-media li, 
+.social-media-icon {
+    font-size: 30px;
+}
+.social-media li {
+    margin-right: 10px;
+}
+.social-media-icon {
+    color: var(--Yellow);
+    font-size: 25px;
+}
+.footer-bottom {
+    font-size: 13px;
+    background: var(--Yellow);
+    font-weight: bold;
+}
+.footer-bottom .container .direitos-autorais{
+    color: black;
+}
+
+.produtos .imgr{
+    background: black;
+}
+.produtos .texp{
+    background: var(--Yellow);
+}
+.produtos h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Oswald";
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+.produtos p{
+    font-weight: bold;
+    font-family: "Oswald";
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: white;
+}
+/*
+.produtos .bottom-line{
+    width: 15%;
+    height: 1.5px;
+    background: black;
+}
+*/
+.abc{
+    border: none !important ;
+}
